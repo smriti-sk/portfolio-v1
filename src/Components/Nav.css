@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
 
 :root {
+  --black-main: #14151f;
+  --background-main: #F1F5F8;
   --teal-1: #38A89D;
   --teal-2: #4DC0B5;
   --teal-3: #64D5CA;
@@ -24,11 +26,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
+/* html {
   font-size: 100%;
   font-family: 'Ubuntu', sans-serif;
   color: #14151f;
-}
+} */
 body.mobile-open {
   overflow-y: hidden;
 }
@@ -96,7 +98,7 @@ p {
 nav {
   position: fixed;
   width: 100%;
-  background: #F1F5F8;
+  background: var(--background-main);
   padding: 1rem;
   border-bottom: solid 1px #CCC;
   z-index: 9999;
@@ -110,24 +112,24 @@ nav .logo {
   font-size: 2em;
   text-transform: lowercase;
 }
-nav .logo span:nth-child(1) {
+nav .logo span:nth-child(n+0) {
     color: var(--blue-1);
 }
-nav .logo span:nth-child(2) {
+nav .logo span:nth-child(2n+0) {
     color: var(--teal-1);
 }
-nav .logo span:nth-child(3) {
+nav .logo span:nth-child(3n+0) {
   color: var(--indigo-1);
 }
-nav .logo span:nth-child(4) {
+nav .logo span:nth-child(4n+0) {
   color: var(--pink-1);
 }
-nav .logo span:nth-child(5) {
-    color: var(--blue-1);
-  }
-  nav .logo span:nth-child(6) {
-    color: var(--teal-1);
-  }
+/* nav .logo span:nth-child(5) {
+  color: var(--blue-1);
+}
+nav .logo span:nth-child(6) {
+  color: var(--teal-1); 
+} */
 nav .burger {
   position: absolute;
   right: 0;
@@ -316,15 +318,6 @@ nav .links {
 .link a:hover + .underline .part {
   opacity: 1;
   transform: translateY(0);
-}
-
-section {
-  padding: 50px 1rem;
-}
-section.main-content {
-  padding-top: 140px;
-  background: #FFF;
-  min-height: 200vh;
 }
 
 @media (max-width: 768px) {

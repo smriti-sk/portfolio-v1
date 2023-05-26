@@ -29,6 +29,7 @@ const Nav = () => {
           <div className="container">
             <div className="logo">
               <span>S</span><span>m</span><span>r</span><span>i</span><span>t</span><span>i</span>
+              <span>&nbsp;K</span><span>u</span><span>m</span><span>a</span><span>r</span><span>i</span>
             </div>
             <div className="links">
               <div className="link teal">
@@ -82,10 +83,6 @@ const Nav = () => {
             </div>
           </div>
         </nav>
-        <section className="main-content">
-          <div className="container">
-          </div>
-        </section>
       </div>
     </>
   );
