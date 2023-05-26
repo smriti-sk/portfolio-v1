@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "675f7bc5a23d859b7046",
-    "url": "/smritikumari/static/css/main.bfd2036f.chunk.css"
+    "revision": "85be31bcdf9ececbd00e",
+    "url": "/smritikumari/static/css/main.a66d62e7.chunk.css"
   },
   {
-    "revision": "675f7bc5a23d859b7046",
-    "url": "/smritikumari/static/js/main.675f7bc5.chunk.js"
+    "revision": "85be31bcdf9ececbd00e",
+    "url": "/smritikumari/static/js/main.85be31bc.chunk.js"
   },
   {
     "revision": "54087e177e7c5a193df0",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/smritikumari/static/media/smriti.7a30ca8f.png"
   },
   {
-    "revision": "210d0ac1c4df55d2da6dcc938759c717",
+    "revision": "ac312d98d6ce8c62a1bdcb30e69bb042",
     "url": "/smritikumari/index.html"
   }
 ];
