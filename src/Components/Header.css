@@ -1,31 +1,42 @@
 section {
-padding: 50px 1rem;
+  padding: 50px 1rem;
 }
 section.main-content {
-padding-top: 110px;
-background: var(--background-main);
-min-height: 200vh;
+  padding-top: 110px;
+  background: var(--background-main);
+  min-height: 200vh;
 }
 
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: blank; }
-.item6 { grid-area: footer; }
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: blank;
+}
+.item6 {
+  grid-area: footer;
+}
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-template-rows: 5em 2em auto auto 6em;
   grid-template-areas:
-    'menu menu  header header header'
-    'menu menu main main main'
-    'menu menu right right right'
-    'menu menu blank blank blank'
-    'footer footer footer footer footer';
-  gap: 5px;
-  /* background-color: #cde6fa; */
+    "menu menu  header header header"
+    "menu menu main main main"
+    "menu menu right right right"
+    "menu menu blank blank blank"
+    "footer footer footer footer footer";
+  gap: 5px 30px;
   padding: 1em;
   max-height: 80vh;
 }
@@ -33,77 +44,110 @@ min-height: 200vh;
 .grid-container > div {
   /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: left;
-  padding: 5px 0;
+  padding: 5px;
 }
-
 .item1 > h2 {
-    font-size: 3em;
-    padding-bottom: 1em;
+  font-size: 3em;
+  padding-bottom: 1em;
 }
-/* .item2{
-    min-width: 15em;
-    min-height: 15em;
-} */
-.item3  {
-    font-size: 26px;
-    font-weight: 600;
+.item3 {
+  font-size: 26px;
+  font-weight: 600;
 }
-#profilePhoto{
-    width: 15em;
-    height: 15em;
-    border-radius: 50%;
+#profilePhoto {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
 }
-.item4{
-    font-size: 18px;
+.item4 {
+  font-size: 18px;
 }
-.item5{
-    min-height: 3em;
+.item5 {
+  min-height: 3em;
 }
-.item6 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 5px;
+.cta-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
 }
-.item6 > .cta {
-    background-color: rgb(226, 244, 192);
-    height: 4.5em;
-    width: 4.5em;
-    border-radius: 50%;
-    border: 1px solid var(--black-main);
-    vertical-align: middle;
-    text-align: center;
-    padding: 10px;
-    font-size: 26px;
-    font-weight: 500;
+.cta-container > .cta {
+  height: 4.5em;
+  width: 4.5em;
+  border-radius: 50%;
+  border: 1px solid var(--black-main);
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  font-size: 26px;
+  font-weight: 500;
 }
 
-.item6 :nth-child(1) {
-    background-color: var(--blue-3);
+.cta-container :nth-child(1) {
+  background-color: var(--blue-3);
 }
-.item6 :nth-child(2) {
-    background-color: var(--teal-3);
+.cta-container :nth-child(2) {
+  background-color: var(--teal-3);
 }
-.item6 :nth-child(3) {
+.cta-container :nth-child(3) {
   background-color: var(--indigo-3);
 }
-.item6 :nth-child(4) {
+.cta-container :nth-child(4) {
   background-color: var(--pink-3);
 }
 
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: auto auto auto auto auto;
-        grid-template-rows: 5em auto 2em auto auto 6em;
-        grid-template-areas:
-          'header header  header header header'
-          'menu menu menu menu  menu'
-          'main main main main main'
-          'right right right right right'
-          'blank blank blank blank blank'
-          'footer footer footer footer footer';
-        gap: 5px;
-        background-color: #cde6fa;
-        padding: 1em;
-        max-height: 130vh;
-      }
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 5em auto 2em auto auto 6em;
+    grid-template-areas:
+      "header"
+      "menu"
+      "main"
+      "right"
+      "blank"
+      "footer";
+    gap: 5px;
+    padding: 1em;
+    max-height: 80vh;
+  }
+
+  .grid-container > div {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+  }
+  #profilePhoto {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+  }
+
+  /* .item6 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  } */
+
+  .cta-container > .cta {
+    height: 5em;
+    width: 5em;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .item1 > h2 {
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+  .cta-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 0 3em;
+  }
 }
