@@ -2,9 +2,9 @@ section {
   padding: 50px 1rem;
 }
 section.main-content {
-  padding-top: 110px;
+  padding: 120px 0px;
   background: var(--background-main);
-  min-height: 200vh;
+  min-height: 100vh;
 }
 
 .item1 {
@@ -82,18 +82,19 @@ section.main-content {
   font-weight: 500;
 }
 
-.cta-container :nth-child(1) {
+.cta-1 {
   background-color: var(--blue-3);
 }
-.cta-container :nth-child(2) {
+.cta-2 {
   background-color: var(--teal-3);
 }
-.cta-container :nth-child(3) {
+.cta-3 {
   background-color: var(--indigo-3);
 }
-.cta-container :nth-child(4) {
+.cta-4 {
   background-color: var(--pink-3);
 }
+
 
 @media only screen and (max-width: 768px) {
   .grid-container {
@@ -129,7 +130,6 @@ section.main-content {
     grid-template-columns: auto auto;
     gap: 10px;
   } */
-
   .cta-container > .cta {
     height: 5em;
     width: 5em;

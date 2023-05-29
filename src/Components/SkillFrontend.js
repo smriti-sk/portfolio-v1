@@ -5,7 +5,7 @@ const MySkills = () => {
   return (
     <>
       <div class="skills">
-        <h3>Programming Languages</h3>
+        <h3>Front-end development</h3>
         <div class="skills-bar">
           <div class="bar">
             <div class="info">
@@ -23,24 +23,48 @@ const MySkills = () => {
               </div>
               <div class="bar">
                 <div class="info">
-                  <span>BOOTSTRAP</span>
+                  <span>JavaScript</span>
                 </div>
                 <div class="progress-line">
-                  <span class="bootstrap"></span>
+                  <span class="javascript"></span>
                 </div>
                 <div class="bar">
                   <div class="info">
-                    <span>JAVASCRIPT</span>
+                    <span>React.js</span>
                   </div>
                   <div class="progress-line">
-                    <span class="javascript"></span>
+                    <span class="react"></span>
+                  </div>
+                </div>
+                <div class="bar">
+                  <div class="info">
+                    <span>BOOTSTRAP</span>
+                  </div>
+                  <div class="progress-line">
+                    <span class="bootstrap"></span>
                   </div>
                   <div class="bar">
                     <div class="info">
-                      <span>C PROGRAMMING</span>
+                      <span>C/C++</span>
                     </div>
                     <div class="progress-line">
-                      <span class="c"></span>
+                      <span class="cpp"></span>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>PYTHON</span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="python"></span>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>Git / GitHub</span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="git"></span>
                     </div>
                   </div>
                 </div>

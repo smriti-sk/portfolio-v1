@@ -1,0 +1,206 @@
+/* .MySkills{
+    height: 100vh;
+} */
+.skills {
+  padding-top: 1em;
+  top: auto;
+  left: 50%;
+  width: 90%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skills-bar {
+  padding: 15px 30px;
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+
+.skills-bar .bar .info span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.skills-bar .bar .info {
+    text-align: left;
+  margin-bottom: 8px;
+  color: #07374a;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 8px;
+  width: 90%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  left: 0;
+  position: absolute;
+  background: var(--blue-1);
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  text-transform: uppercase;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+/* Frontend (skill-1)  */
+.progress-line .html {
+  width: 95%;
+}
+.progress-line .css {
+  width: 95%;
+}
+.progress-line .javascript {
+  width: 85%;
+}
+.progress-line .react {
+  width: 90%;
+}
+.progress-line .bootstrap {
+  width: 82%;
+}
+.progress-line .cpp {
+  width: 90%;
+}
+.progress-line .python {
+  width: 85%;
+}
+.progress-line .git {
+  width: 90%;
+}
+/* Frontend Ends (skill-1)  */
+
+/* Backend (skill-2)  */
+.progress-line .nodejs {
+  width: 65%;
+}
+.progress-line .sql {
+  width: 80%;
+}
+.progress-line .mysql {
+  width: 80%;
+}
+.progress-line .mongodb {
+  width: 70%;
+}
+.progress-line .php {
+  width: 70%;
+}
+.progress-line .rest-api{
+  width: 60%;
+}
+.progress-line .dsa {
+  width: 60%;
+}
+.progress-line .cloud {
+  width: 50%;
+}
+/* Backend Ends (skill-2)  */
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -14px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-style: #f0f0f0;
+  border-top-color: #07374a;
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #f0f0f0;
+  font-size: 12px;
+  font-weight: 700;
+  background: #07374a;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+/* Frontend (skill-1)  */
+.progress-line .html::after {
+  content: "95%";
+}
+.progress-line .css::after {
+  content: "95%";
+}
+.progress-line .javascript::after {
+  content: "85%";
+}
+.progress-line .react::after {
+  content: "90%";
+}
+.progress-line .bootstrap::after {
+  content: "82%";
+}
+.progress-line .cpp::after {
+  content: "90%";
+}
+.progress-line .python::after {
+  content: "85%";
+}
+.progress-line .git::after {
+  content: "90%";
+}
+/* Frontend Ends (skill-1)  */
+
+/* Backend (skill-2)  */
+.progress-line .nodejs::after {
+  content: "65%";
+}
+.progress-line .sql::after {
+  content: "80%";
+}
+.progress-line .mysql::after {
+  content: "80%";
+}
+.progress-line .mongodb::after {
+  content: "70%";
+}
+.progress-line .php::after {
+  content: "70%";
+}
+.progress-line .rest-api::after{
+  content: "60%";
+}
+.progress-line .dsa::after {
+  content: "60%";
+}
+.progress-line .cloud::after {
+  content: "50%";
+}
+/* Backend Ends (skill-2)  */
+
+/* ////........Media Query........//// */
+
+@media only screen and (max-width: 768px){
+  .skills {
+    width: 90%;
+  }
+
+  .skills-bar .bar .progress-line {
+    width: 100%;
+  }
+}
