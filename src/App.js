@@ -15,7 +15,7 @@ function App() {
       <h1>Hello, world!</h1>
       </Nav>
       <Routes>
-        <Route index path='/' Component={Home} />
+        <Route path='/' Component={Home} />
         <Route path='/about' Component={About}/>
         <Route path='/contact' Component={Contact}/>
       </Routes>
