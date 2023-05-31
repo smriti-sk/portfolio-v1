@@ -27,7 +27,7 @@ const Socials = () => {
           </a>
         </li>
         <li className="link">
-          <a className=" contact-img" href="" alt="github">
+          <a className=" contact-img" href="https://github.com/smriti-sk" alt="github">
             <FontAwesomeIcon
               icon={faGithub}
               size="xl"
