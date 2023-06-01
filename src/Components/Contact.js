@@ -7,8 +7,13 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
+  // const [state, handleSubmit] = useForm("xpzeevnd");
+  // if (state.succeeded) {
+  //     return <p>Thanks for joining!</p>;
+  // }
   return (
     <>
       <section id="contact">
@@ -71,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-form-wrapper">
-            <form>
+            <form action="https://formspree.io/f/xpzeevnd" method="POST">
               <div className="form-item">
                 <input type="text" name="sender" required />
                 <label>Name:</label>
@@ -84,7 +89,10 @@ const Contact = () => {
                 <textarea className="" name="message" required></textarea>
                 <label>Message:</label>
               </div>
-              <button className="submit-btn">Send</button>
+              <button className="submit-btn" type="submit" >Send</button>
+              {/* <button type="submit" disabled={state.submitting}>
+        Submit
+      </button> */}
             </form>
           </div>
         </div>

@@ -73,8 +73,8 @@ const Header = () => {
               <div className="cta-container">
                 <div className="cta cta-1">My Resume</div>
                 <div className="cta cta-2"><Link to="/About">About me</Link></div>
-                <div className="cta cta-3">My Skills</div>
-                <div className="cta cta-4">My Projects</div>
+                <div className="cta cta-3"><Link to="/About">My Skills</Link></div>
+                <div className="cta cta-4"><Link to="/Projects">My Projects</Link></div>
               </div>
             </div>
           </div>

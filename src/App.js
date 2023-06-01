@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Nav from './Components/Nav';
+import Nav from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Projects from './Components/Projects';
 
 
 function App() {
@@ -15,9 +16,12 @@ function App() {
       <h1>Hello, world!</h1>
       </Nav>
       <Routes>
-        <Route path='/' Component={Home} />
+        <Route index path='/' Component={Home} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path='/about' Component={About}/>
+        {/* <Route path='/contact' Component={ContactForm}/> */}
         <Route path='/contact' Component={Contact}/>
+        <Route path='/projects' Component={Projects}/>
       </Routes>
       </Router>
     </div>

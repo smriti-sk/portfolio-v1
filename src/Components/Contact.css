@@ -113,7 +113,7 @@ li {
 
 .contact-img:active {
   transform: scale(1.1, 1.1);
-  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
+  /* filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3); */
 }
 
 .form-item {
