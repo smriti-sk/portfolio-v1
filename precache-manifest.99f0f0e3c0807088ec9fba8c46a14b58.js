@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "f007f8189b0c4072cf20",
-    "url": "/smritikumari/static/css/main.496bbaf7.chunk.css"
+    "revision": "88852dd2ff389880b09b",
+    "url": "/smritikumari/static/css/main.aa31d3c4.chunk.css"
   },
   {
-    "revision": "f007f8189b0c4072cf20",
-    "url": "/smritikumari/static/js/main.f007f818.chunk.js"
+    "revision": "88852dd2ff389880b09b",
+    "url": "/smritikumari/static/js/main.88852dd2.chunk.js"
   },
   {
-    "revision": "692a8372bce424561495",
-    "url": "/smritikumari/static/js/1.692a8372.chunk.js"
+    "revision": "c0dba26f4ccf71cea450",
+    "url": "/smritikumari/static/js/1.c0dba26f.chunk.js"
   },
   {
-    "revision": "a63393b39b3bcdd9e4af",
-    "url": "/smritikumari/static/js/2.a63393b3.chunk.js"
+    "revision": "f1c9731828fb1564ddcc",
+    "url": "/smritikumari/static/js/2.f1c97318.chunk.js"
   },
   {
-    "revision": "c5d396015a44378dce21",
-    "url": "/smritikumari/static/js/runtime~main.c5d39601.js"
+    "revision": "db4a19fbcfcd62c5819b",
+    "url": "/smritikumari/static/js/runtime~main.db4a19fb.js"
   },
   {
     "revision": "7a30ca8f55464622703b0a820f30ce0b",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/smritikumari/static/media/tictactoe.a8244cde.png"
   },
   {
-    "revision": "2752a70d19bec2b544cfe7a9f28b61e9",
-    "url": "/smritikumari/static/media/ExpenseTracker.2752a70d.PNG"
-  },
-  {
     "revision": "99facc78bc60b70344b8c750babeccb9",
     "url": "/smritikumari/static/media/VideoConfrencing.99facc78.PNG"
+  },
+  {
+    "revision": "2752a70d19bec2b544cfe7a9f28b61e9",
+    "url": "/smritikumari/static/media/ExpenseTracker.2752a70d.PNG"
   },
   {
     "revision": "ab0c936e14476c939f7fec3ab30d2147",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/smritikumari/static/media/youtubeclone.28d63d0e.PNG"
   },
   {
-    "revision": "40db2a8ac2ba71dfda36053f3f05d858",
+    "revision": "a3275be970afc5cf0f7ffe8a6e4a520b",
     "url": "/smritikumari/index.html"
   }
 ];
