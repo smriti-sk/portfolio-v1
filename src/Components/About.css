@@ -1,5 +1,5 @@
 #about {
-  padding-top: 140px;
+  padding-top: var(--mainpage-padding);
   color: var(--black-main);
   background-color: var(--background-main);
 }
@@ -97,6 +97,12 @@ h2 {
     gap: 10px;
     /* background-color: #2196f3; */
     padding: 10px;
+  }
+  .about-item4 > p {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 350;
   }
 
 }

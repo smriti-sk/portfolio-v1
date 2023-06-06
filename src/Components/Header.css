@@ -2,7 +2,7 @@ section {
   padding: 50px 1rem;
 }
 section.main-content {
-  padding: 120px 0px;
+  padding: var(--mainpage-padding);
   background: var(--background-main);
   min-height: 100vh;
 }
@@ -116,13 +116,16 @@ section.main-content {
   .grid-container > div {
     height: 100%;
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding: 5px 0;
   }
   #profilePhoto {
     width: 12em;
     height: 12em;
     border-radius: 50%;
+  }
+  div.item4{
+    text-align: left;
   }
 
   /* .item6 {

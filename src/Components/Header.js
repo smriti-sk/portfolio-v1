@@ -3,10 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import profilePhoto from "../Images/smriti.png";
 import Socials from "./Socials";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+
 
 
 const Header = () => {
@@ -32,46 +29,11 @@ const Header = () => {
               management.
             </div>
             <div className="item5">
-              {/* <ul className="social-links">
-                <li>
-                  <div className="socials">
-                    <a href="#" alt="linkedin">
-                      <FontAwesomeIcon
-                        icon={faLinkedin}
-                        size="xl"
-                        style={{ color: "#005eff" }}
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div className="socials">
-                    <a href="" alt="github">
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        size="xl"
-                        style={{ color: "#000000" }}
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div className="socials">
-                    <a href="" alt="twitter">
-                      <FontAwesomeIcon
-                        icon={faTwitter}
-                        size="xl"
-                        style={{ color: "#009dff" }}
-                      />
-                    </a>
-                  </div>
-                </li>
-              </ul> */}
               <Socials/>
             </div>
             <div className="item6">
               <div className="cta-container">
-                <div className="cta cta-1">My Resume</div>
+                <div className="cta cta-1"><Link to="/Resume">Resume</Link></div>
                 <div className="cta cta-2"><Link to="/About">About me</Link></div>
                 <div className="cta cta-3"><Link to="/About">My Skills</Link></div>
                 <div className="cta cta-4"><Link to="/Projects">My Projects</Link></div>

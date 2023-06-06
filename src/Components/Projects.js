@@ -9,7 +9,7 @@ const Projects = () => {
         <main class="page-content">
           <div class="card">
             <div class="content">
-              <h2 class="title">Expense Tracker</h2>
+              <h2 class="project-title">Expense Tracker</h2>
               <p class="copy">
                 Monitor your spending, view transaction history, and maintain a
                 healthy financial balance
@@ -24,7 +24,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="content">
-              <h2 class="title">Portfolio Website</h2>
+              <h2 class="project-title">Portfolio&nbsp;Website</h2>
               <p class="copy">
                 Build my own portfolio website from scratch including all the
                 relevant content using React.js, Bootstrap.
@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="content">
-              <h2 class="title">Video Conferencing App</h2>
+              <h2 class="project-title">Video Conferencing App</h2>
               <p class="copy">Video Chat App with React.js and WebRTC</p>
               <a
                 className="project-link"
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="content">
-              <h2 class="title">Tic Tac Toe</h2>
+              <h2 class="project-title">Tic Tac Toe</h2>
               <p class="copy">
                 The classic Tic-Tac-Toe game for free offline with two players
                 using Python and tkinter library.
@@ -67,7 +67,7 @@ const Projects = () => {
 
           <div class="card">
             <div class="content">
-              <h2 class="title">Youtube Clone - Frontend</h2>
+              <h2 class="project-title">Youtube Clone - Frontend</h2>
               <p class="copy">
                 YouTube clone website using HTML, CSS, JavaScript.
               </p>

@@ -15,23 +15,33 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-      <div className="logo">
-              <span>S</span><span>m</span><span>r</span><span>i</span><span>t</span><span>i</span>
-              <span>&nbsp;K</span><span>u</span><span>m</span><span>a</span><span>r</span><span>i</span>
-            </div>
+        <div className="logo">
+          <span>S</span>
+          <span>m</span>
+          <span>r</span>
+          <span>i</span>
+          <span>t</span>
+          <span>i</span>
+          <span>&nbsp;K</span>
+          <span>u</span>
+          <span>m</span>
+          <span>a</span>
+          <span>r</span>
+          <span>i</span>
+        </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-        <div className="burger">
-              <div className="close">
-                <div className="line"></div>
-                <div className="line"></div>
-              </div>
-              <div className="menu">
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-              </div>
+          <div className="burger">
+            <div className="close">
+              <div className="line"></div>
+              <div className="line"></div>
             </div>
+            <div className="menu">
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
+          </div>
         </div>
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
@@ -39,16 +49,14 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <NavLink to="/about">About me</NavLink>
             </li>
             <li>
-              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/projects">My Projects</NavLink>
             </li>
+
             <li>
-              <NavLink to="/about">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact">Contact me</NavLink>
             </li>
           </ul>
         </div>

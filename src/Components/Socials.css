@@ -3,6 +3,7 @@
   display: flex;
   padding: 0;
   margin: 20px 0;
+  justify-content: center;
 }
 li {
   display: inline;
