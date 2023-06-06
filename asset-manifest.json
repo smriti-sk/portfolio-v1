@@ -1,7 +1,7 @@
 {
-  "main.css": "/smritikumari/static/css/main.7571b76d.chunk.css",
-  "main.js": "/smritikumari/static/js/main.96c0aa07.chunk.js",
-  "main.js.map": "/smritikumari/static/js/main.96c0aa07.chunk.js.map",
+  "main.css": "/smritikumari/static/css/main.54c774c6.chunk.css",
+  "main.js": "/smritikumari/static/js/main.0b804eee.chunk.js",
+  "main.js.map": "/smritikumari/static/js/main.0b804eee.chunk.js.map",
   "static/js/1.c0dba26f.chunk.js": "/smritikumari/static/js/1.c0dba26f.chunk.js",
   "static/js/1.c0dba26f.chunk.js.map": "/smritikumari/static/js/1.c0dba26f.chunk.js.map",
   "static/js/2.f1c97318.chunk.js": "/smritikumari/static/js/2.f1c97318.chunk.js",
@@ -11,8 +11,8 @@
   "static/media/smriti.png": "/smritikumari/static/media/smriti.7a30ca8f.png",
   "static/media/About.css": "/smritikumari/static/media/smritiphoto.a7dc58fb.jpg",
   "static/media/Projects.css": "/smritikumari/static/media/youtubeclone.28d63d0e.PNG",
-  "static/css/main.7571b76d.chunk.css.map": "/smritikumari/static/css/main.7571b76d.chunk.css.map",
+  "static/css/main.54c774c6.chunk.css.map": "/smritikumari/static/css/main.54c774c6.chunk.css.map",
   "index.html": "/smritikumari/index.html",
-  "precache-manifest.bcc39e39825b8eedb08fd64d3d79929e.js": "/smritikumari/precache-manifest.bcc39e39825b8eedb08fd64d3d79929e.js",
+  "precache-manifest.2c3e43ef566a7e234743b661614ef2f5.js": "/smritikumari/precache-manifest.2c3e43ef566a7e234743b661614ef2f5.js",
   "service-worker.js": "/smritikumari/service-worker.js"
 }
