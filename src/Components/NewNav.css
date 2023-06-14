@@ -2,7 +2,7 @@ nav.navbar {
   height: 4rem;
   width: 100vw;
   background-color: #131418;
-  color: white;
+  color: #eeeeee;
   display: flex;
   position: fixed;
   z-index: 10;
@@ -27,7 +27,7 @@ nav.navbar {
   justify-content: end;
   align-items: center;
   text-transform: uppercase;
-  color: white;
+  color: #eeeeee;
 }
 .nav-link {
   text-decoration: none;
@@ -39,6 +39,7 @@ nav.navbar {
 }
 .nav-links li {
   position: relative;
+  margin: 0 0.5rem;
 }
 .nav-link::before {
   content: "";
@@ -52,38 +53,6 @@ nav.navbar {
 }
 .nav-link:hover::before {
   width: 80%;
-}
-
-/*Styling Buttons*/
-.login-button {
-  background-color: transparent;
-  border: 1.5px solid #f2f5f7;
-  border-radius: 2em;
-  padding: 0.6rem 0.8rem;
-  margin-left: 2vw;
-  font-size: 1rem;
-  cursor: pointer;
-}
-.login-button:hover {
-  color: #131418;
-  background-color: #f2f5f7;
-  border: 1.5px solid #f2f5f7;
-  transition: all ease-in-out 350ms;
-}
-.join-button {
-  color: #131418;
-  background-color: #61dafb;
-  border: 1.5px solid #61dafb;
-  border-radius: 2em;
-  padding: 0.6rem 0.8rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-.join-button:hover {
-  color: #f2f5f7;
-  background-color: transparent;
-  border: 1.5px solid #f2f5f7;
-  transition: all ease-in-out 350ms;
 }
 
 /*Styling Hamburger Icon*/
@@ -115,13 +84,13 @@ nav.navbar {
     transition: all 0.7s ease;
   }
   .nav-links {
-    padding-top: 15em;
+    padding-top: 5em;
     position: fixed;
     background: #131418;
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     row-gap: 40px;
     clip-path: circle(50px at 90% -20%);
     -webkit-clip-path: circle(50px at 90% -10%);

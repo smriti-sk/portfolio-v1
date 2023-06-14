@@ -20,8 +20,10 @@ const NewNav = () => {
   return (
     <div>
       <nav className="navbar">
-        <div className="logo">
+        <div >
+        <NavLink className="logo" to="">
           <img src={logo} alt="Logo Image" />
+        </NavLink>
         </div>
         <div className={`hamburger${toggleHamburgerClass}`} onClick={handleClick}>
           <div className="line1"></div>
@@ -33,16 +35,16 @@ const NewNav = () => {
             <NavLink className="nav-link" to="">Home</NavLink>
           </li>
           <li ref={links} className={`${toggleLinkClass}`}>
-          <NavLink className="nav-link" to="/about">About me</NavLink>
+          <NavLink className="nav-link" to="/about">About&nbsp;me</NavLink>
           </li>
           <li ref={links} className={`${toggleLinkClass}`}>
-          <NavLink className="nav-link" to="/projects">Skills</NavLink>
+          <NavLink className="nav-link" to="/projects">MY&nbsp;Skills</NavLink>
           </li>
           <li ref={links} className={`${toggleLinkClass}`}>
-          <NavLink className="nav-link" to="/projects">Projects</NavLink>
+          <NavLink className="nav-link" to="/projects">My&nbsp;Projects</NavLink>
           </li>
           <li ref={links} className={`${toggleLinkClass}`}>
-          <NavLink className="nav-link" to="/contact">Contact me</NavLink>
+          <NavLink className="nav-link" to="/contact">Contact&nbsp;me</NavLink>
           </li>
         </ul>
       </nav>
