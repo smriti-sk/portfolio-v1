@@ -38,7 +38,7 @@ const NewNav = () => {
           <NavLink className="nav-link" to="/about">About&nbsp;me</NavLink>
           </li>
           <li ref={links} className={`${toggleLinkClass}`}>
-          <NavLink className="nav-link" to="/projects">MY&nbsp;Skills</NavLink>
+          <NavLink className="nav-link" to="/skills">MY&nbsp;Skills</NavLink>
           </li>
           <li ref={links} className={`${toggleLinkClass}`}>
           <NavLink className="nav-link" to="/projects">My&nbsp;Projects</NavLink>

@@ -16,9 +16,7 @@ const Header = () => {
             <div className="item2">
               <img src={profilePhoto} alt="profile photo" id="profilePhoto" />
             </div>
-
             <div className="item3">A bit about me</div>
-
             <div className="item4">
               Full Stack Developer with a passion for building innovative and
               user-friendly web applications. Skilled in a variety of front-end
@@ -37,7 +35,7 @@ const Header = () => {
                 <Link to="/About">
                   <div className="cta cta-2">About me</div>
                 </Link>
-                <Link to="/About">
+                <Link to="/Skills">
                   <div className="cta cta-3">My Skills</div>
                 </Link>
                 <Link to="/Projects">

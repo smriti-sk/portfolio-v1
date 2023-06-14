@@ -2,7 +2,7 @@
   list-style-type: none;
   display: flex;
   padding: 0;
-  margin: 20px 0;
+  /* margin: 20px 0; */
   justify-content: center;
 }
 li {

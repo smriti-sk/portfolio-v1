@@ -53,14 +53,7 @@ const About = () => {
             {/* blank */}
             </div>
           <div class="about-item6">
-            <div className="skill-container">
-              <div class="skill-1">
-                <SkillFrontend />
-              </div>
-              <div class="skill-2">
-                <SkillBackend />
-              </div>
-            </div>
+            
           </div>
         </div>
 
