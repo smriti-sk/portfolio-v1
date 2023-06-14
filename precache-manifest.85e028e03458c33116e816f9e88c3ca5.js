@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bff2f16135f71123ea33",
-    "url": "/smritikumari/static/css/main.088bd959.chunk.css"
+    "revision": "c5d20a3b6202ccda014f",
+    "url": "/smritikumari/static/css/main.fce3093c.chunk.css"
   },
   {
-    "revision": "bff2f16135f71123ea33",
-    "url": "/smritikumari/static/js/main.a9c1ac97.chunk.js"
+    "revision": "c5d20a3b6202ccda014f",
+    "url": "/smritikumari/static/js/main.766c3a12.chunk.js"
   },
   {
     "revision": "1d07ae8ff5e8400348d9",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/smritikumari/static/media/tictactoe.a8244cde.png"
   },
   {
-    "revision": "ab0c936e14476c939f7fec3ab30d2147",
-    "url": "/smritikumari/static/media/portfolio.ab0c936e.PNG"
-  },
-  {
     "revision": "2752a70d19bec2b544cfe7a9f28b61e9",
     "url": "/smritikumari/static/media/ExpenseTracker.2752a70d.PNG"
+  },
+  {
+    "revision": "ab0c936e14476c939f7fec3ab30d2147",
+    "url": "/smritikumari/static/media/portfolio.ab0c936e.PNG"
   },
   {
     "revision": "99facc78bc60b70344b8c750babeccb9",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/smritikumari/static/media/youtubeclone.28d63d0e.PNG"
   },
   {
-    "revision": "6a34f2d4a226365f56fbaea46d13611a",
+    "revision": "a39135cbcc5df25d96da2cd3a8e98d65",
     "url": "/smritikumari/index.html"
   }
 ];
