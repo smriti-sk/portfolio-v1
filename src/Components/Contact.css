@@ -4,7 +4,7 @@
 
 
 #contact {
-  padding-top: var(--mainpage-padding);
+  /* padding-top: var(--mainpage-padding); */
   display: flex;
   justify-content: center;
   align-items: center;

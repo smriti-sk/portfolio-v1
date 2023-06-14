@@ -9,7 +9,7 @@ const Projects = () => {
         <main class="page-content">
           <div class="card">
             <div class="content">
-              <h2 class="project-title">Expense Tracker</h2>
+              <h2 class="project-title">Expense&nbsp;Tracker</h2>
               <p class="copy">
                 Monitor your spending, view transaction history, and maintain a
                 healthy financial balance
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="content">
-              <h2 class="project-title">Tic Tac Toe</h2>
+              <h2 class="project-title">Tic&nbsp;Tac&nbsp;Toe</h2>
               <p class="copy">
                 The classic Tic-Tac-Toe game for free offline with two players
                 using Python and tkinter library.

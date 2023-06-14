@@ -10,6 +10,15 @@ const Nav = () => {
   const wrapper = document.querySelector('.site-wrapper');
   const burger = document.querySelector('nav .burger');
 
+  const [btnState, setBtnState] = useState(false);
+
+  function handleClick() {
+    setBtnState((btnState) => !btnState);
+  }
+
+  let toggleNavClass = btnState? ' open': '';
+  let toggleLinkClass = btnState? ' fade': '';
+
     // if(burger.current){
     //   burger.current.addEventListener('click', () => {
     //     wrapper.current.classList.remove('no-animation');
@@ -75,7 +84,7 @@ const Nav = () => {
                 </div>
               </div>
             </div>
-            <div ref={burger} className="burger">
+            <div ref={burger} className="burger" onClick={handleClick}>
               <div className="close">
                 <div className="line"></div>
                 <div className="line"></div>

@@ -1,9 +1,7 @@
 :root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
-  /* --font-sans: "Rubik", sans-serif;
-  --font-serif: "Cardo", serif; */
-  --mainpage-padding: 10px;
+  --mainpage-padding: 110px;
 }
 
 * {
@@ -11,7 +9,7 @@
 }
 
 #Projects {
-  padding: var(--mainpage-padding);
+  padding-top: var(--mainpage-padding);
   background: var(--background-main);
   min-height: 100vh;
 }
@@ -140,8 +138,8 @@
 }
 
 .project-title {
-  font-size: 1.4rem;
-  font-weight: 800;
+  font-size: 1.6rem;
+  font-weight: 850;
   line-height: 1.2;
   -webkit-text-stroke: 1px #000;
   /* color:#fff ; */

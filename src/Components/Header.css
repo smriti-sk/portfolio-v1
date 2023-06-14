@@ -2,7 +2,7 @@ section {
   padding: 50px 1rem;
 }
 section.main-content {
-  padding: var(--mainpage-padding);
+  padding-top: var(--mainpage-padding);
   background: var(--background-main);
   min-height: 100vh;
 }
@@ -65,12 +65,12 @@ section.main-content {
 .item5 {
   min-height: 3em;
 }
-.cta-container{
+.cta-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 5px;
 }
-.cta-container > .cta {
+.cta {
   height: 4.5em;
   width: 4.5em;
   border-radius: 50%;
@@ -94,7 +94,6 @@ section.main-content {
 .cta-4 {
   background-color: var(--pink-3);
 }
-
 
 @media only screen and (max-width: 768px) {
   .grid-container {
@@ -124,7 +123,7 @@ section.main-content {
     height: 12em;
     border-radius: 50%;
   }
-  div.item4{
+  div.item4 {
     text-align: left;
   }
 
@@ -133,7 +132,7 @@ section.main-content {
     grid-template-columns: auto auto;
     gap: 10px;
   } */
-  .cta-container > .cta {
+  .cta {
     height: 5em;
     width: 5em;
     padding: 10px;
@@ -142,7 +141,7 @@ section.main-content {
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .item1 > h2 {
     font-size: 2em;
     padding-bottom: 1em;

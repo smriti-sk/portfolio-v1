@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import profilePhoto from "../Images/smriti.png";
 import Socials from "./Socials";
 
-
-
 const Header = () => {
   return (
     <>
@@ -29,14 +27,22 @@ const Header = () => {
               management.
             </div>
             <div className="item5">
-              <Socials/>
+              <Socials />
             </div>
             <div className="item6">
               <div className="cta-container">
-                <div className="cta cta-1"><Link to="/Resume">Resume</Link></div>
-                <div className="cta cta-2"><Link to="/About">About me</Link></div>
-                <div className="cta cta-3"><Link to="/About">My Skills</Link></div>
-                <div className="cta cta-4"><Link to="/Projects">My Projects</Link></div>
+                <Link to="/Resume">
+                  <div className="cta cta-1">Resume</div>
+                </Link>
+                <Link to="/About">
+                  <div className="cta cta-2">About me</div>
+                </Link>
+                <Link to="/About">
+                  <div className="cta cta-3">My Skills</div>
+                </Link>
+                <Link to="/Projects">
+                  <div className="cta cta-4">My Projects</div>
+                </Link>
               </div>
             </div>
           </div>

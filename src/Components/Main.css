@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
+
+:root {
+  --black-main: #14151f;
+  --background-main: #f1f5f8;
+  --teal-1: #38a89d;
+  --teal-2: #4dc0b5;
+  --teal-3: #64d5ca;
+  --teal-4: #a0f0ed;
+  --blue-1: #2779bd;
+  --blue-2: #3490dc;
+  --blue-3: #6cb2eb;
+  --blue-4: #bcdefa;
+  --indigo-1: #5661b3;
+  --indigo-2: #6574cd;
+  --indigo-3: #7886d7;
+  --indigo-4: #b2b7ff;
+  --pink-1: #eb5286;
+  --pink-2: #f66d9b;
+  --pink-3: #fa7ea8;
+  --pink-4: #ffbbca;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 2rem;
+  margin: 16px 0;
+}
+p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
