@@ -8,7 +8,6 @@ import MySkills from "./Components/MySkills";
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import Resume  from './Components/Resume';
-// import CV from './Components/CV';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       {/* <Router> */}
       <Router basename='/smritikumari'>
       <Nav />
-      {/* <Home /> */}
       <Routes>
         <Route index path='/' element={<Home/>} />
         <Route path='/about' element={<About/>}/>
