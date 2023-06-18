@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "2380c9f6dd5560981ff4",
-    "url": "/smritikumari/static/css/main.e147cf2a.chunk.css"
+    "revision": "d9ed331540f1db01ee9e",
+    "url": "/smritikumari/static/css/main.dab457f8.chunk.css"
   },
   {
-    "revision": "2380c9f6dd5560981ff4",
-    "url": "/smritikumari/static/js/main.8cb4cbff.chunk.js"
+    "revision": "d9ed331540f1db01ee9e",
+    "url": "/smritikumari/static/js/main.cbe5d644.chunk.js"
   },
   {
-    "revision": "1d07ae8ff5e8400348d9",
-    "url": "/smritikumari/static/js/runtime~main.3ace408f.js"
+    "revision": "a113d7ad9cac7f392531",
+    "url": "/smritikumari/static/js/runtime~main.6b51ccaa.js"
   },
   {
-    "revision": "865d2fd8f49881025f51",
-    "url": "/smritikumari/static/js/2.e1647886.chunk.js"
+    "revision": "eefd67cddc3e1f2d6625",
+    "url": "/smritikumari/static/js/2.98fab485.chunk.js"
   },
   {
-    "revision": "c92f93a210098a1396f5",
-    "url": "/smritikumari/static/js/3.25fd5855.chunk.js"
+    "revision": "05ab368e0d3f79e1b84a",
+    "url": "/smritikumari/static/js/3.31456830.chunk.js"
   },
   {
     "revision": "7a30ca8f55464622703b0a820f30ce0b",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/smritikumari/static/media/youtubeclone.28d63d0e.PNG"
   },
   {
-    "revision": "952d440abf550db00d90f53594540311",
+    "revision": "d0646081f748a8bd82f01f5803bc69dc",
     "url": "/smritikumari/index.html"
   }
 ];
