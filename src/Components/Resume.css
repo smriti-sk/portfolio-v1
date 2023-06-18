@@ -1,8 +1,7 @@
 #resume{
-  padding-top: var(--mainpage-padding);
+  padding-top: 72px;
 }
 #MyResume{
   width: 100%;
-  height: 85vh;
-  background-color: bisque;
+  height: 86vh;
 }
