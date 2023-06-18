@@ -18,11 +18,10 @@ function App() {
       <Routes>
         <Route index path='/' element={<Home/>} />
         <Route path='/about' element={<About/>}/>
-        <Route path='/resume' element={<Resume/>}/>
         <Route path='/skills' element={<MySkills/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Contact/>}/>
-
+        <Route path='/resume' element={<Resume/>}/>
       </Routes>
       </Router>
     </div>
