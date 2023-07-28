@@ -24,6 +24,7 @@
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
   /* font-family: var(--font-sans); */
 }
 

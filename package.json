@@ -1,7 +1,7 @@
 {
   "name": "smritikumari",
   "version": "0.1.0",
-  "homepage": "https://smriti-sk.github.io/smritikumari",
+  "homepage": "https://smriti-sk.github.io/portfolio-v1/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
